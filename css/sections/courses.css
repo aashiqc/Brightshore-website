@@ -1,0 +1,118 @@
+
+.section-heading {
+    line-height: 78px; 
+    text-align: center;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.section-heading h2 {
+    font-family: var(--font-family);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 78px;
+    color: rgb(35, 35, 68);
+
+}
+.courses_catalogue {
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 56px;
+}
+
+.popular-courses_card {
+    padding: 29px;
+    width: 260px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.05);
+    
+}
+.popular-courses_card:hover {
+    background-color: #eafaff;
+}
+
+.popuar-courses_card-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 36px;
+    border-top-right-radius: 36px;
+}
+
+.popular-course_title {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: var(--font-family1);
+    color: rgb(35, 35, 68);
+    text-align: center;
+}
+
+.popular-course_details {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.course-rating {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.course-rating img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    margin-bottom: 16px;
+}
+
+.course-rating p {
+    font-size: 15px;
+    font-weight: 300;
+    font-family: var(--plus-jakarta-sans);
+    color: #1d112e;
+}
+
+.course-book-button {
+    text-align: center;
+    border-radius: 5px;
+    color: #ffff;
+    width: 60px;
+    height: 25px;
+    background-image: linear-gradient(to right top, #3f37c9, #0066e4, #008bf0, #00acf2, #4cc9f0);
+    font-family: var(--font-family);
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 8px;
+    margin-bottom: 16px;
+}
+
+.course-book-button:hover {
+    background-image: linear-gradient(to right top, #3f37c9, #0066e4, #008bf0, #00acf2, #4cc9f0);
+    background: #3f37c9;
+}
+.course-description {
+    font-family: var(--font-monteserrat);
+    font-size: 10px;
+    text-align: inherit;
+    color: grey;
+    font-weight: 500;
+    margin-top: 10px;
+
+}

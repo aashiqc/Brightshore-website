@@ -1,32 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Brightshore</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="shortcut icon" href="assets/favicon-01.jpg" type="jpeg">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brightshore</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="assets/favicon-01.jpg" type="jpeg">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
- 
+     <!-- Link Swiper's CSS -->
+     <link rel="stylesheet" href="css/cdn.jsdelivr.net_npm_swiper@10.1.0_swiper-bundle.min.css">
 
-
-
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
  
 </head>
+
 <body>
-
-
-
-<main class="container">
-
-   <header class="header">
-    <nav class="header_nav">
-        <div class="header_logo">
-            <img src="assets/bright-logo.png" alt="logo">
-        </div>
-        <div class="header_menu">
-            <ul class="navlist" id="navlist">
+    <main class="container">
+        <header class="header">
+            <nav class="header_nav">
+                <div class="header_logo">
+                    <img src="assets/bright-logo.png" alt="logo">
+                </div>
+                <div class="header_menu">
+                    <ul class="navlist" id="navlist">
+                        <li>
+                            <a href="#Home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#Courses">Courses</a>
+                        </li>
+                        <li>
+                            <a href="#About-Us">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#Mentors">Mentors</a>
+                        </li>
+                        <li>
+                          <a href="gallery.html">Gallery</a>
+                      </li>
+                        <li>
+                            <a href="#Contact">Contact</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="header_call">
+                    <button id="callButton">Join Us</button>
+                    <div class="toggle_btn" id="menu-icon"><i class="fa-solid fa-bars"></i></div>
+                </div>
+            </nav>
+            <div class="dropdown_menu">
                 <li>
                     <a href="#Home">Home</a>
                 </li>
@@ -40,247 +65,368 @@
                     <a href="#Mentors">Mentors</a>
                 </li>
                 <li>
+                  <a href="gallery.html">Gallery</a>
+              </li>
+                <li>
                     <a href="#Contact">Contact</a>
                 </li>
-            </ul>
-        </div>
-        <div class="header_call">
-            <button>Book Now</button>
-            <div class="toggle_btn" id="menu-icon"><i class="fa-solid fa-bars"></i></div>
-        </div>
-        
-    </nav>
-      
-
-    <div class="dropdown_menu">
-        <li>
-            <a href="#Home">Home</a>
-        </li>
-        <li>
-            <a href="#Courses">Courses</a>
-        </li>
-        <li>
-            <a href="#About-Us">About Us</a>
-        </li>
-        <li>
-            <a href="#Mentors">Mentors</a>
-        </li>
-        <li>
-            <a href="#Contact">Contact</a>
-        </li>
-    </div>
-</header>
-
-  <section class="hero " id="Home">
-    <div class="hero_content">
-      <h1> Empower Your Journey,  <br>Shine with <span style="  display: inline;  color: #4361ee; ">Brightshore</span></h1>
-      <h4>Embark on a journey of endless knowledge and growth with our diverse range of courses and resources</h4>
-      <div class="hero_buttons">
-        <button class="hero_btn"> Book Now
-
-        </button>
-        <button class="learn_btn"> Learn More
-
-        </button>
-  
-      
-      </div>
-    </div>
-    <div class="hero_image">
-      <img src="assets/hero-img.png" alt="">
-    </div>
-  </section>
-
-  
-
-
-  <!-- courses section -->
-  
-
-  
-  <section class="our-courses" id="Courses">
-    <div class="section-heading">
-      <h2>Our Courses</h2>
-
-    </div>
-
-    <div class="courses_catalogue">
-      <article class="popular-courses_card hvr-float">
-          <img src="assets/personal-development.jpg" alt="" class="popuar-courses_card-image">
-          <h4 class="popular-course_title tw">Communicative English</h4>
-          <p class="course-description">
-            Speak and write English fluently with our comprehensive Communicative English course
-          </p>
-          <div class="popular-course_details">
-              <div class="course-rating">
-                  <img src="assets/star.svg" alt="">
-                  <p>4.9</p>
-              </div>
-              <button class="course-book-button">Book Now</button>
-          </div>
-      </article>
-
-
-
-
-
-      <article class="popular-courses_card hvr-float">
-        <img src="assets/Commmunication-skill.jpg" alt="" class="popuar-courses_card-image">
-        <h4 class="popular-course_title">Personal Training</h4>
-        <p class="course-description">
-          Speak and write English fluently with our comprehensive Communicative English course
-        </p>
-        <div class="popular-course_details">
-            <div class="course-rating">
-                <img src="assets/star.svg" alt="">
-                <p>4.9</p>
             </div>
-            <button class="course-book-button">Book Now</button>
-        </div>
-    </article>
+        </header>
 
-
-
-    <article class="popular-courses_card hvr-float">
-      <img src="assets/skill-development.jpg" alt="" class="popuar-courses_card-image">
-      <h4 class="popular-course_title">Skill Development</h4>
-      <p class="course-description">
-        Speak and write English fluently with our comprehensive Communicative English course
-      </p>
-      <div class="popular-course_details">
-          <div class="course-rating">
-              <img src="assets/star.svg" alt="">
-              <p>4.9</p>
+        <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+          <i class="fa fa-whatsapp my-float"></i>
+          </a>
+        <!-- Hero section -->
+        <section class="hero " id="Home">
+            <div class="hero_content">
+                <h1 data-aos="ease-in"> Empower Your Journey, <br>Shine with <span style="  display: inline; color: #4361ee;   font-family: var(--font-family); ">BrightShore</span></h1>
+                <h4>Embark on a journey of endless knowledge and growth with our diverse range of courses and resources</h4>
+                <div class="hero_buttons">
+                    <button class="hero_btn whatsappButton"> <i class="fa-brands fa-whatsapp"></i>WhatsApp Now</button>
+                </div>
+            </div>
+            <div class="hero_image">
+                <img src="assets/hero-img.png" alt="">
+            </div>
+        </section>
+        <!-- courses section -->
+        <section class="our-courses" id="Courses">
+            <div class="section-heading">
+                <h2>Our Courses</h2>
+                <p>Elevate Your Potential: Explore Our Transformative Courses Today</p>
+            </div>
+            <div class="courses-container">
+                <div class="courses-cards">
+                    <div class="course-card">
+                        <div class="course-icon">
+                            <img src="assets/global-education.png" alt="">
+                        </div>
+                        <div class="course-content">
+                            <h3>Easy and Tasty English <br>(online & offline)</h3>
+                            <p>Fluent English made delightful through immersive culinary-themed language exploration</p>
+                        </div>
+                        <div class="course-enroll w-button">
+                            <button class="whatsappButton">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses-cards">
+                    <div class="course-card">
+                        <div class="course-icon">
+                            <img src="assets/empowerment.png" alt="">
+                        </div>
+                        <div class="course-content">
+                            <h3>Students Empowerment Program</h3>
+                            <p>Unlocking young potential through personalized guidance, fostering confidence and lifelong skills.</p>
+                        </div>
+                        <div class="course-enroll w-button">
+                            <button class="whatsappButton">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses-cards">
+                    <div class="course-card">
+                        <div class="course-icon">
+                            <img src="assets/presentation.png" alt="">
+                        </div>
+                        <div class="course-content">
+                            <h3>Teachers Training</h3>
+                            <p>Elevate educators' impact with cutting-edge pedagogy and strategies for dynamic classroom engagement.</p>
+                        </div>
+                        <div class="course-enroll">
+                           <button class="whatsappButton">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses-cards">
+                    <div class="course-card">
+                        <div class="course-icon">
+                            <img src="assets/growth.png" alt="">
+                        </div>
+                        <div class="course-content">
+                            <h3>Business Mastery Program</h3>
+                            <p>Navigating the corporate landscape with expert insights, cultivating leaders of industry excellence.</p>
+                        </div>
+                        <div class="course-enroll">
+                            <button class="whatsappButton">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses-cards">
+                    <div class="course-card">
+                        <div class="course-icon">
+                            <img src="assets/project-management.png" alt="">
+                        </div>
+                        <div class="course-content">
+                            <h3>Management Training</h3>
+                            <p>Sharpening management prowess for effective leadership in today's fast-paced business world.</p>
+                        </div>
+                        <div class="course-enroll">
+                            <button class="whatsappButton">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses-cards">
+                    <div class="course-card">
+                        <div class="course-icon">
+                            <img src="assets/targeted.png" alt="">
+                        </div>
+                        <div class="course-content">
+                            <h3>Success Coaching</h3>
+                            <p>Tailored guidance and strategies to propel individuals toward their personal and professional goals.</p>
+                        </div>
+                        <div class="course-enroll">
+                            <button class="whatsappButton">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses-cards">
+                    <div class="course-card">
+                        <div class="course-icon">
+                            <img src="assets/brain (1).png" alt="">
+                        </div>
+                        <div class="course-content">
+                            <h3>Smart Tuition</h3>
+                            <p>Innovate traditional learning with tech-integrated approaches, enhancing students' academic journey.</p>
+                        </div>
+                        <div class="course-enroll">
+                            <button class="whatsappButton">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses-cards">
+                    <div class="course-card">
+                        <div class="course-icon">
+                            <img src="assets/parenting.png" alt="">
+                        </div>
+                        <div class="course-content">
+                            <h3>Effective Parenting Program</h3>
+                            <p>Nurturing family dynamics with proven techniques, fostering harmonious growth and connections.</p>
+                        </div>
+                        <div class="course-enroll">
+                           <button class="whatsappButton">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses-cards">
+                    <div class="course-card">
+                        <div class="course-icon">
+                            <img src="assets/conversation.png" alt="">
+                        </div>
+                        <div class="course-content">
+                            <h3>Counselling</h3>
+                            <p>Expert support and guidance, providing a safe space for personal well-being and growth.</p>
+                        </div>
+                        <div class="course-enroll">
+                            <button class="whatsappButton">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of course section -->
+        <!-- About US section -->
+        <section class="about-us" id="About-Us">
+          <div class="aboutus-container">
+            <div class="about-image_container">
+              <img src="assets/about-us-01.png" alt="">
+            </div>
+            <div class="about-text_container">
+              <h2>About-Us</h2>
+              <p>Welcome to <span style=" font-size: 20px; font-family: var(--font-family1); color: #4361ee;">Brightshore</span>, a place where learning knows no limits. We are passionate about education and dedicated to helping you unlock your potential. </p>
+            </div>
           </div>
-          <button class="course-book-button">Book Now</button>
-      </div>
-  </article>
+           <div class="aboutus-mission">
+            <div class="mission">
+              <h3>Our Mission</h3>
+                <p>At Brightshore, our mission is to provide a comprehensive and holistic educational experience for individuals of all ages globally. Through motivational speeches, training programs, and other educational events, we strive to inspire, empower, and equip our attendees with the knowledge, skills, and confidence needed to achieve their personal and professional goals</p>
+
+            </div>
+            <div class="vision">
+              <h3>Our Vision</h3>
+                <p>At Brightshore, we envision a future where every individual has the opportunity to reach their full potential and make a positive impact on their communities. We aim to be a leading global educational institution known for our innovative approach to learning and our commitment to providing high-quality educational experiences. Our goal is to create a lasting impact in the lives of our attendees, helping them achieve their dreams and make a positive difference in the world, ultimately fostering happy and purposeful individual lives.</p>
+
+            </div>
+                 
+                
+
+           </div>
+           
+                
+            
+        </section>
+        <!-- end of About us  section -->
+        <!-- Why US  section -->
+        <section class="whychooseus">
+            <div class="section-heading why-us">
+                <h2>Why <span style="color: #4361ee;">BrightShore</span> ?</h2>
+            </div>
+            <div class="ag-format-container">
+                <div class="ag-courses_box">
+                    <div class="ag-courses_item">
+                        <div href="#" class="ag-courses-item_link">
+                            <div class="ag-courses-item_bg"></div>
+                            <div class="ag-courses-item_title"> Holistic Learning Experience </div>
+                        </div>
+                    </div>
+                    <div class="ag-courses_item">
+                        <div href="#" class="ag-courses-item_link">
+                            <div class="ag-courses-item_bg"></div>
+                            <div class="ag-courses-item_title"> Expert-Led Curriculum </div>
+                        </div>
+                    </div>
+                    <div class="ag-courses_item">
+                        <div href="#" class="ag-courses-item_link">
+                            <div class="ag-courses-item_bg"></div>
+                            <div class="ag-courses-item_title"> Flexible Learning Options </div>
+                        </div>
+                    </div>
+                    <div class="ag-courses_item">
+                        <div href="#" class="ag-courses-item_link">
+                            <div class="ag-courses-item_bg"></div>
+                            <div class="ag-courses-item_title"> Individual Coaching </div>
+                        </div>
+                    </div>
+                    <div class="ag-courses_item">
+                        <div href="#" class="ag-courses-item_link">
+                            <div class="ag-courses-item_bg"></div>
+                            <div class="ag-courses-item_title"> Interactive Technology Integration </div>
+                        </div>
+                    </div>
+                    <div class="ag-courses_item">
+                        <div href="#" class="ag-courses-item_link">
+                            <div class="ag-courses-item_bg"></div>
+                            <div class="ag-courses-item_title"> Proven Success Stories </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!--End of  Why US  section -->
+    
+
+
+          <div class="section-heading why-us">
+            <h2>Our <span style="color: #4361ee;">Success</span> Stories</h2>
+          </div>
+          <div class="story-container container swiper">
+            <div class="slide-container">
+              <div class="card-wrapper swiper-wrapper">
+                <div class="card swiper-slide">
+                  <video controls>
+                    <source src="assets/videos/video6262403733108296188.mp4" type="video/mp4">
+                    
+                  </video>
+
+                </div>
+
+                <div class="card swiper-slide">
+                  <video controls>
+                    <source src="assets/videos/video6262403733108296189.mp4" type="video/mp4">
+                    
+                  </video>
+
+                </div>
+
+
+                <div class="card swiper-slide ">
+                  <video controls>
+                    <source src="assets/videos/video6262499433569585962.mp4" type="video/mp4">
+                    
+                  </video>
+
+                </div>
+
+
+
+                
+
+
+               
 
 
 
 
-  <article class="popular-courses_card hvr-float">
-    <img src="assets/mind-training.jpg" alt="" class="popuar-courses_card-image">
-    <h4 class="popular-course_title">Mind Training</h4>
-    <p class="course-description">
-      Speak and write English fluently with our comprehensive Communicative English course
-    </p>
-    <div class="popular-course_details">
-        <div class="course-rating">
-            <img src="assets/star.svg" alt="">
-            <p>4.9</p>
-        </div>
-        <button class="course-book-button">Book Now</button>
-    </div>
-</article>
+                
+              </div>
+              
+              
+              
 
-  </div>
+            </div>
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+             <div class="swiper-pagination"></div>
+          
+            
+          </div>
   
-    
-    
-  </section>
-    
+        <!-- Footer  section -->
+        <footer class="footer_section">
+            <div class="footer_content">
+              <!-- <div class="header_logo">
+                <img src="assets/bright-logo.png" alt="">
+              </div> -->
+                <div class="about-footer">
+                    <h2>About brightshore</h2>
+                    <p>At Brightshore Institute, we believe that personal development is the key to unlocking one's true potential. Founded with a vision to empower individuals with the skills and mindset needed to thrive in a rapidly evolving world, we are a futuristic educational hub dedicated to nurturing holistic growth</p>
+                </div>
+                <div class="footer-menu">
+                    <ul class="footer_menu">
+                        <li>
+                            <a href="#Home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#Courses">Courses</a>
+                        </li>
+                        <li>
+                            <a href="#About-Us">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#Mentors">Mentors</a>
+                        </li>
+                        <li>
+                            <a href="#Contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_social">
+                    <h3>Social-media Links</h3>
+                    <div class="social-icons">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2023 Brightshore</p>
+        </footer>
+        <!-- Footer  section -->
+    </main>
 
-  <!-- end of course section -->
-
-  <section class="about-us" id="About-Us">
-    <div class="about-image_container">
-      <img src="assets/pexels-lil-artsy-3278767.jpg" alt="">
-      <img src="assets/pexels-yan-krukau-8613059.jpg" alt="">
-
-    </div>
-    <div class="about-text_container">
-      <h2>About-Us</h2>
-      <p>Welcome to <span style=" font-size: 20px; font-family: var(--font-family1); color: #4361ee;">Brightshore</span>, a place where learning knows no limits. We are passionate about education and dedicated to helping you unlock your potential.
-
-        At Brightshore, we believe that education is the foundation for personal and societal growth. Our mission is to provide a diverse range of courses that cater to various interests and learning goals. Whether you're looking to enhance your skills, embark on a new career path, or simply broaden your horizons, we have something for you.</p>
-
-    </div>
-  </section>
-
-
-
-  <footer class="footer_section">
-    <div class="footer_content">
-      <div class="about-footer">
-        <h2>About brightshore</h2>
-        <p>At Brightshore Institute, we believe that personal development is the key to unlocking one's true potential. Founded with a vision to empower individuals with the skills and mindset needed to thrive in a rapidly evolving world, we are a futuristic educational hub dedicated to nurturing holistic growth</p>
-
-    </div>
-    <div class="footer-menu">
-      <ul class="footer_menu">
-        <li>
-            <a href="#Home">Home</a>
-        </li>
-        <li>
-            <a href="#Courses">Courses</a>
-        </li>
-        <li>
-            <a href="#About-Us">About Us</a>
-        </li>
-        <li>
-            <a href="#Mentors">Mentors</a>
-        </li>
-        <li>
-            <a href="#Contact">Contact</a>
-        </li>
-    </ul>
-
-
-    </div>
-    <div class="footer_social">
-      <h3>Social-media Links</h3>
-      <div class="social-icons">
-        <i class="fa-brands fa-whatsapp"></i>
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-twitter"></i>
-      </div>
-      
-    </div>
-
-    </div>
-    
-    <p class="copyright" >&copy; 2023 Brightshore</p>
-    
-      
-   
-
-</footer>
-  
-
-</main>
-
-  
-
-
-  
-
-
+      <!-- Swiper JS -->
+  <script src="js/cdn.jsdelivr.net_npm_swiper@10.1.0_swiper-bundle.min.js"></script>
 
  
-
-
-
-
-  
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-  (function(){
-  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-  s1.async=true;
-  s1.src='https://embed.tawk.to/64d64a0694cf5d49dc69d463/1h7ih2b8m';
-  s1.charset='UTF-8';
-  s1.setAttribute('crossorigin','*');
-  s0.parentNode.insertBefore(s1,s0);
-  })();
-  </script>
-  <!--End of Tawk.to Script-->
-
-  <script src="https://kit.fontawesome.com/eeb55e2e34.js" crossorigin="anonymous"></script>
-
-  <script src="js/script.js"></script>
-  
+    <script src="js/script.js"></script>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function() {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/64d64a0694cf5d49dc69d463/1h7ih2b8m';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+    <script src="https://kit.fontawesome.com/eeb55e2e34.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

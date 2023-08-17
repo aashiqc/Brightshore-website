@@ -1,11 +1,10 @@
 .hero {
+    padding-bottom: 5rem;
     padding-top: 30px;
     display: flex;
     flex-direction: column;
     width: 100%;
-    background: rgb(234, 243, 251);
-    background: linear-gradient(180deg, rgb(219, 237, 252) 0%, rgb(242, 248, 251) 72%, rgba(255,255,255,1) 100%);
-
+    background: #caf0f8;
     
    
     
@@ -13,9 +12,11 @@
 .hero_content {
     display: flex;
     flex-direction: column;
-    margin: 0.5rem;
-    margin-left: 1.5rem;
-    justify-content: center;
+    margin: 1rem;
+    /* margin-left: 1.5rem; */
+    /* justify-content: center;
+    align-items: center; */
+    gap: 1rem;
 
     
 }
@@ -26,70 +27,151 @@
     font-family: var(--font-family);
     font-size: 40px;
     font-weight: 800;
-    color: #03045e;
+    color: #000000;
     line-height: 3rem;
     text-align: center;
 
 
 }
 .hero_content h4 {
+    text-align: center;
     
-    font-size: 15px;
     font-family: var(--font-family1);
-    font-weight: 200;
-    color: grey;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(41, 41, 41);
     
 }
 
 .hero_image {
-    margin: 4rem;
+    display: flex;
+    margin-top: 3rem;
     justify-content: center;
     align-items: center;
 }
 .hero_image img {
-    width: 14rem;
+    width: 20rem;
     position: relative;
 }
-.hero_buttons {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    margin-top: 0.7rem;
-    justify-content: center;
+.hero_buttons i {
+    margin-right: 5px;
 }
+
 .hero_btn {
-    max-width: 7.5rem;
-    max-height: 6rem;
-    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+   
+    background: rgb(18,140,126);
+    background: linear-gradient(265deg, rgb(28, 195, 175) 0%, rgba(37,211,102,1) 100%);
 
 }   
 .hero_btn:hover {
   
-    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: rgb(37,211,102);
+     background: linear-gradient(265deg, rgba(37,211,102,1) 0%, rgba(18,140,126,1) 100%);
     
 }
 .hero_buttons button {
     border: 0;
-    
     color: #ffff;
     border-radius: 30px;
     font-size: 14px;
     font-family: var(--font-family1);
     font-weight: 400;
-    width: 6.7rem;
-    height: 2.2rem;
+    width: 11rem;
+    height: 2.7rem;
     cursor: pointer;
 
 }
 
-.learn_btn {
-    background: rgb(131,58,180);
-    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+
+
+
+
+
+
+  /* Hero Section media queries */
+  
+  @media screen and (min-width: 750px) {
+    .hero {
+        display: flex;
+        flex-direction: row;
+    }
+    .hero_image img {
+        width: 25rem;
+    }
+    .hero_content {
+        margin-left: 2rem;
+        justify-content: start;
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem
+
+    }
+    .hero_content h1 {
+        font-size: 40px;
+        text-align: start;
+       
+    }
+    .hero_content h4 {
+        text-align: start;
+        
+    }
+
+  }
+
+  @media screen and (max-width: 320px) {
+    .buttons-hero {
+        display: flex;
+        flex-direction: column;
+
+    }
+  }
+  
+ 
+
+ 
+  @media screen and (min-width: 1180px) {
+   
+    .hero_content h1 {
+        font-size: 4.6rem;
+        line-height: 5rem;
+    }
+    .hero {
+        justify-content: center;
+        gap: 10rem;
+    }
+    .hero_content {
+        margin-left: 6rem;
+    }
+  
+  }
+  @media screen and (min-width: 1024px) {
+
+    .hero_image img {
+        width: 30rem;
+        margin-bottom: 2rem;
+    }
+    .hero_content {
+        margin-left: 4rem;
+        width: 100%;
+    }
+
 }
-.learn_btn:hover {
-    background: rgb(131,58,180);
-background: linear-gradient(265deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+
+@media screen and (min-width: 1380px) {
+    .hero {
+        padding-left: 20px;
+    padding-right: 120px;
+    }
+    
 }
+
+
+@media screen and (max-width: 748px) {
+    .hero_content {
+
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+  }

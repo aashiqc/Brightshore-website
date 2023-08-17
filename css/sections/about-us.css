@@ -1,32 +1,58 @@
 .about-us {
+    background: #dde4fb;
     display: flex;
-    flex-direction: row;
+    flex-direction:column;
     margin-top: 50px;
-    margin: 50px;
     justify-content: center;
     align-items: center;
     gap: 3rem;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 10px;
 
 }
-.about-image_container {
-    display: none;
+.mission {
+    max-width: 40rem;
+}
+.aboutus-mission h3 {
+    font-family: var(--font-family);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 78px;
+    color: rgb(35, 35, 68);
+
+}
+.aboutus-mission p {
+    font-family: var( --font-monteserrat);
+    font-size: 15px;
+    font-weight: 400;
+}
+.aboutus-container {
+    justify-content: center;
+    align-items: center;
+}
+/* .about-image_container {
+    
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
     margin-top: 5rem;
-    justify-content: flex-end; /* Align images to the right */
-    margin-left: 2rem;
-}
+    justify-content: center;
+    
+  
+} */
 
 .about-image_container img {
-    width: 250px;
-    height: 400px;
-    transform: rotate(-1deg); /* Rotate images by -5 degrees */
+    width: 40rem;
+   
+   
 }
 
-.about-image_container img:last-child {
-    margin-top: 20px; /* Adjust the margin to move the last image down */
-}
 .about-text_container {
     display: inline-block;
+    max-width: 33rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     
 
 }
@@ -42,3 +68,49 @@
     font-size: 15px;
     font-weight: 400;
 }
+.about-text_container h3 {
+    font-family: var(--font-family);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 78px;
+    color: rgb(35, 35, 68);
+}
+
+
+/* about us section */
+
+@media screen and (min-width: 760px) {
+    .aboutus-container {
+        display: flex;
+        flex-direction: row;
+    }
+    .about-image_container {
+        display: flex;
+    }
+    .about-us {
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutus-mission {
+        display: flex;
+        flex-direction: row;
+        max-width: 63rem;
+        gap: 5rem;
+    }
+    /* .about-text_container {
+        margin-top: 10rem;
+    } */
+  }
+  @media screen and (max-width: 1024px) {
+    .about-image_container img {
+        width: 18rem;
+        height: 18rem;
+    }
+  }
+
+  @media screen and (min-width: 425px) {
+    .aboutus-mission {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+  }

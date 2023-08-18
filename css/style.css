@@ -10,6 +10,7 @@
 @import url("sections/footer.css");
 @import url("sections/whyus.css");
 @import url("sections/testimonials.css");
+@import url("sections/expert.css");
 
 :root{
 
@@ -60,23 +61,39 @@
   
 
 
-
-
+  @keyframes myAnim {
+    0% {
+      opacity: 0;
+      transform: translateX(-250px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  @keyframes myAnim2 {
+    0% {
+      opacity: 0;
+      transform: translateX(250px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  @keyframes myAnim3 {
+    0% {
+      opacity: 0;
+      transform: translateY(250px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
   
 
 
-
-  /* footer media */
-
-
-  @media screen and (min-width: 750px) {
-    .footer_content {
-        display: flex;
-        flex-direction: row;
-        gap: 10rem;
-    }
-    .about-footer {
-        max-width: 22rem;
-        text-align: start;
-    }
-  }

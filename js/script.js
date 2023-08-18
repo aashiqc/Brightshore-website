@@ -63,3 +63,22 @@ var swiper = new Swiper(".slide-container", {
       },
     },
   });
+
+
+  const videoPlayers = document.querySelectorAll('.video-player');
+
+  // Pause all videos except the one that is clicked
+  function pauseOtherVideos(clickedVideo) {
+    videoPlayers.forEach(player => {
+      if (player !== clickedVideo) {
+        player.pause();
+      }
+    });
+  }
+
+  // Add click event listeners to the videos
+  videoPlayers.forEach(player => {
+    player.addEventListener('play', () => {
+      pauseOtherVideos(player);
+    });
+  });

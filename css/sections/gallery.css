@@ -1,0 +1,7 @@
+.container {
+    margin: 1rem;
+}
+.gallery-container img {
+    max-width: 20rem;
+    margin: 1rem;
+}

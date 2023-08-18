@@ -1,0 +1,93 @@
+/* Style for the expert section container */
+.expert-section {
+    margin: 3rem 0;
+  }
+  
+  /* Centering the expert cards and setting flex direction to column */
+  .expert-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  /* Styling for the section heading */
+  .section-heading h2 {
+    font-family: var(--font-family);
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+  }
+  
+  /* Styling for the expert cards container */
+  .expert-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  /* Styling for each expert card */
+  .expert-card {
+    background-color: #fff;
+    /* padding: 1.5rem; */
+    padding-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .expert-card img {
+    width: 20rem; /* Updated image width */
+    height: 20rem; /* Maintain aspect ratio */
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .expert-card h4 {
+    font-size: 18px;
+    margin: 0;
+    font-family: var(--font-family);
+  }
+  
+  /* Hover effect for the expert cards */
+  .expert-card:hover {
+    transform: translateY(-5px);
+  }
+  .social-media {
+    margin-top: 1rem; /* Adjust the margin as needed */
+  }
+  
+  .social-media i {
+    cursor: pointer;
+    font-size: 24px; /* Adjust the icon size */
+    color: #333; /* Adjust the icon color */
+    margin: 0 0.5rem; /* Adjust the spacing between icons */
+  }
+  
+  /* Media query for mobile screens */
+  @media (max-width: 980px) {
+    .expert-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .expert-cards-container {
+      flex-direction: column;
+    }
+    .expert-card img {
+        width: 14rem;
+        height: 14rem;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .expert-card img {
+        width: 12rem;
+        height: 12rem;
+    }
+  }
+  

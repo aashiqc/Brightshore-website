@@ -1,5 +1,6 @@
 .our-courses {
     background: #ffffff;
+    animation: myAnim3 1s ease 0s 1 normal forwards;
  
 }
 .section-heading {

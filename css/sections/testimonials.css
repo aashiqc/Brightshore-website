@@ -82,7 +82,7 @@
     }
   }
 
-  @media screen and (min-width: 350px) {
+  @media screen and (min-width: 330px) {
     .swiper-slide video {
         margin-left: 30px;
     }

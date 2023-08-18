@@ -78,6 +78,9 @@
 .w-button {
     margin-bottom: 2rem;
 }
+.w-card {
+    margin-top: 1rem;
+}
 
 .courses-cards button {
     cursor: pointer;

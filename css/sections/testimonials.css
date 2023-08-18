@@ -82,13 +82,19 @@
     }
   }
 
-  /* @media screen and (min-width: 350px) {
+  @media screen and (min-width: 350px) {
     .swiper-slide video {
         margin-left: 30px;
     }
-  } */
+  }
   /* @media screen and (min-width: 420px) {
     .swiper-slide video {
         margin-left: 40px;
     }
   } */
+
+  @media screen and (min-width: 450px) {
+    .swiper-slide video {
+        margin-left: 0px;
+    }
+  }

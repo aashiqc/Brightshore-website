@@ -14,6 +14,7 @@ footer {
 }
 .footer_logo img {
   width: 9rem;
+  margin-bottom: 2rem;
 }
 .footer_content {
     display: flex;

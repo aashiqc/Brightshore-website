@@ -84,16 +84,20 @@
     }
   }
 
-  @media (min-width: 900px) {
+  @media (min-width: 880px) {
     .expert-card img {
         width: 12rem;
         height: 12rem;
     }
   }
-  @media (min-width: 1000px) {
+  @media (min-width: 1200px) {
     .expert-card img {
-        width: 18rem;
-        height: 18rem;
+        width: 20rem;
+        height: 20rem;
+    }
+    .expert-cards-container {
+        gap: 3rem;
     }
   }
+  
   

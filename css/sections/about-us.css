@@ -28,7 +28,11 @@
     justify-content: center;
     align-items: center;
 }
-
+.about-image_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .about-image_container img {
     width: 40rem;

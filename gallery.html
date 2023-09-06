@@ -16,6 +16,10 @@
      <link rel="stylesheet" href="css/cdn.jsdelivr.net_npm_swiper@10.1.0_swiper-bundle.min.css">
 
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+     
+     <!-- link animation -->
+
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 
@@ -81,16 +85,15 @@
             </div>
     
     
-            <div class="gallery-container">
-                <img src="assets/photo1692266350 (5).jpeg" alt="">
-                <img src="assets/photo1692266350 (1).jpeg" alt="">
+            <div class="gallery-container" >
+                <img src="assets/photo1692266350 (5).jpeg" alt="" data-aos="fade-up" data-aos-duration="1000" style="overflow: hidden;">
+                <img src="assets/photo1692266350 (1).jpeg" alt="" data-aos="fade-up" data-aos-duration="1000" style="overflow: hidden;">
                 
-                <img src="assets/photo1692266350 (3).jpeg" alt="">
+                <img src="assets/photo1692266350 (3).jpeg" alt="" data-aos="fade-up" data-aos-duration="1000" style="overflow: hidden;">
                 
-                <img src="assets/photo1692266350 (5).jpeg" alt="">
-                <img src="assets/photo1692266350 (5).jpeg" alt="">
-                <img src="assets/photo1692266350 (2).jpeg" alt="">
-                <img src="assets/photo1692266350 (4).jpeg" alt="">
+                <img src="assets/photo1692266350 (5).jpeg" alt="" data-aos="fade-up" data-aos-duration="1000" style="overflow: hidden;">
+                <img src="assets/photo1692266350 (2).jpeg" alt="" data-aos="fade-up" data-aos-duration="1000" style="overflow: hidden;">
+                <img src="assets/photo1692266350 (4).jpeg" alt="" data-aos="fade-up" data-aos-duration="1000" style="overflow: hidden;">
             </div>
 
         </div>
@@ -143,11 +146,20 @@
         <div class="footer_social">
             <h3>Get Connected</h3>
             <div class="social-icons">
-                <i class="fa-brands fa-whatsapp"></i>
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-twitter"></i>
+                <a href="https://api.whatsapp.com/send?phone=7736636656">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="https://m.facebook.com/profile.php/?id=100084033287931&name=xhp_nt__fb__action__open_user">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/bright.shore/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
             </div>
+            
             <!-- <div class="map">
               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15664.008041792855!2d75.8877041!3d11.0384755!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba6535bc03605a1%3A0x283f099d41fd63c7!2sBright%20Shore%20Pathinarungal!5e0!3m2!1sen!2sin!4v1692369525300!5m2!1sen!2sin" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div> -->
@@ -163,21 +175,13 @@
 
 
 <script src="js/script.js"></script>
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API = Tawk_API || {},
-    Tawk_LoadStart = new Date();
-(function() {
-    var s1 = document.createElement("script"),
-        s0 = document.getElementsByTagName("script")[0];
-    s1.async = true;
-    s1.src = 'https://embed.tawk.to/64d64a0694cf5d49dc69d463/1h7ih2b8m';
-    s1.charset = 'UTF-8';
-    s1.setAttribute('crossorigin', '*');
-    s0.parentNode.insertBefore(s1, s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+
+  <!-- SCRIPT AOS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 <script src="https://kit.fontawesome.com/eeb55e2e34.js" crossorigin="anonymous"></script>
 
     

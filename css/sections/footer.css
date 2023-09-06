@@ -99,6 +99,10 @@ footer {
     font-weight: 400;
     font-size: 15px;
 }
+.social-icons a {
+    color: inherit; /* This will inherit the color from the parent element */
+    text-decoration: none; /* Remove underline */
+}
 
 /* .map {
     width: 10rem;

@@ -10,7 +10,7 @@
     
 }
 .hero_content {
-    animation: myAnim 1s ease 0s 1 normal forwards;
+    
     display: flex;
     flex-direction: column;
     margin: 1rem;
@@ -46,7 +46,6 @@
 }
 
 .hero_image {
-    animation: myAnim2 1s ease 0s 1 normal forwards;
     display: flex;
     margin-top: 3rem;
     justify-content: center;

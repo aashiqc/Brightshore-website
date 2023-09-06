@@ -30,6 +30,7 @@
     margin: 0 15px 30px;
   
     overflow: hidden;
+    overflow-x: hidden;
   
     border-radius: 28px;
   }

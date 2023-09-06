@@ -63,9 +63,9 @@
   
   .social-media i {
     cursor: pointer;
-    font-size: 24px; /* Adjust the icon size */
+    font-size: 18px; /* Adjust the icon size */
     color: #333; /* Adjust the icon color */
-    margin: 0 0.5rem; /* Adjust the spacing between icons */
+    margin: 0 0.3rem; /* Adjust the spacing between icons */
   }
   
   /* Media query for mobile screens */
